@@ -10,9 +10,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 
-setuptools.setup(name='apsjournals',
+setuptools.setup(name='pyperbolic',
                  version=pyperbolic.__version__,
-                 description='A pythonic interface for APS publications',
+                 description='Hyperbolic geometry in Python',
                  long_description=long_description,
                  long_description_content_type="text/markdown",
                  url=pyperbolic.__github_url__,
